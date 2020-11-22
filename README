@@ -1,0 +1,13 @@
+l2 optimized untargeted HopSkipJumpAttack pytorch implementation
+
+to get experiment data:
+
+$ python get_result.py
+
+result_data.npy and result_trajectory.npy will be created, then:
+
+$ python get_visuals.py
+
+figures will be generated in the ./visuals directory, result of median distance in table 1 will be output to the terminal
+
+a ResNet20 model pretrained checkpoint named "proper_trained_net.pt" is needed
